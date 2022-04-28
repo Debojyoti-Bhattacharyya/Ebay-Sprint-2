@@ -1,5 +1,7 @@
 package com.cg.PageBin.Selling.PageFactory;
 
+import java.util.Set;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,8 +20,16 @@ public class SellButtonPageFactory {
 	}
 	
 	public void clickSell(WebDriver driver) {
-		String urlToBeSwitched = sellbtn.getAttribute("href");
+		String currentHandle = driver.getWindowHandle();
+		sellbtn.click();
+		Set<String> handles = driver.getWindowHandles();
+		for (String actual : handles) {
+			if(!actual.equalsIgnoreCase(currentHandle)) {
+				driver.switchTo().window(actual);
+			}
+		}
+//		String urlToBeSwitched = sellbtn.getAttribute("href");
 		
-		driver.get(urlToBeSwitched);
+		driver.get(driver.getCurrentUrl());
 	}
 }

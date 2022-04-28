@@ -55,9 +55,7 @@ public class SellingStepDefinition {
 	}
 	@When("User clicks on category")
 	public void user_clicks_on_category() {
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DEBOJYBH\\SeleniumProject\\BrowserDriver\\chromedriver.exe");
-//		driver = new ChromeDriver();
-//		driver.get("https://bulksell.ebay.com/ws/eBayISAPI.dll?SingleList&sellingMode=AddItem");
+
 		System.out.println(driver.getCurrentUrl());
 		try {
 			sellingpf = new SellingPageFactory(driver);
