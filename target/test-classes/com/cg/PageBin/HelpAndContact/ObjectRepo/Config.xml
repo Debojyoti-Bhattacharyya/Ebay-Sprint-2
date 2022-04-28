@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HelpAndContact>
+	
+	<HelpAndContactBtn>//*[@id="gh-p-3"]/a</HelpAndContactBtn>
+	<query>//*[@id="popular_solution_1"]/span/h2</query>
+	
+</HelpAndContact>

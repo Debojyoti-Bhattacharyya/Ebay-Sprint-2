@@ -1,0 +1,5 @@
+chromeDriver = C:\\Users\\DEBOJYBH\\SeleniumProject\\BrowserDriver\\chromedriver.exe
+url = https://www.ebay.com/
+dailyDealsBtn =  Daily Deals
+category = Tech
+product = /html/body/main/div/div[2]/div[1]/div/div[1]/div[1]/div/a

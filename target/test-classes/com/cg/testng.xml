@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="5" verbose="1" name="Ebay Suite" annotations="JDK" parallel="tests">
+	
+	<test name="Registration">
+		<classes>
+			<class name="com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner"/> 
+		</classes>
+	</test>
+	
+	<test name="Signin">
+		<classes>
+			<class name="com.cg.Ebay.Functionalities.Login.SigninTestRunner"/> 
+		</classes>
+	</test>
+	
+	<test name="Buying">
+		<classes>
+			<class name="com.cg.Ebay.Functionalities.Buying.BuyingTestRunner"/> 
+		</classes>
+	</test>
+	
+	<test name="Selling">
+		<classes>
+			<class name="com.cg.Ebay.Functionalities.Selling.SellingTestRunner"/> 
+		</classes>
+	</test>
+	
+	<test name="DailyDeals">
+		<classes>
+			<class name="com.cg.Ebay.Functionalities.DailyDeals.DailyDealsTestRunner"/> 
+		</classes>
+	</test>
+	
+	<test name="HelpAndContact">
+		<classes>
+			<class name="com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner"/> 
+		</classes>
+	</test>
+
+</suite>
