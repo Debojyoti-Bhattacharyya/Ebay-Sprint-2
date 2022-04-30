@@ -47,7 +47,7 @@ public class SellingPageFactory {
 	
 	public void select_category() {
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		searchBox.sendKeys("eBay User Tools");
 		category.click();
 	}

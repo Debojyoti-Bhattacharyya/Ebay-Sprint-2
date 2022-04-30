@@ -56,12 +56,7 @@ public class SellingStepDefinition {
 	}
 	@When("User clicks on category")
 	public void user_clicks_on_category() {
-		try {
-			sellingpf.select_category();
-		}
-		catch(NoSuchElementException e) {
-			System.out.println("NoSuchElement Exception");
-		}
+		sellingpf.select_category();
 	}
 	@When("User clicks on subcategory")
 	public void user_clicks_on_subcategory() {
