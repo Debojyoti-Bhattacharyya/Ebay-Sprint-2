@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-28T15:43:11 IST" name="Default suite" finished-at="2022-04-28T15:45:45 IST" duration-ms="153965">
+  <suite started-at="2022-04-30T12:44:27 IST" name="Default suite" finished-at="2022-04-30T12:45:06 IST" duration-ms="39839">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@14cd1699]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@6302bbb1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-04-28T15:43:11 IST" name="Default test" finished-at="2022-04-28T15:45:45 IST" duration-ms="153965">
+    <test started-at="2022-04-30T12:44:27 IST" name="Default test" finished-at="2022-04-30T12:45:06 IST" duration-ms="39839">
       <class name="com.cg.Ebay.Functionalities.Selling.SellingTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@14cd1699]" started-at="2022-04-28T15:43:11 IST" name="setUpClass" finished-at="2022-04-28T15:43:12 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@6302bbb1]" started-at="2022-04-30T12:44:27 IST" name="setUpClass" finished-at="2022-04-30T12:44:27 IST" duration-ms="188" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@21a9a705]]>
+                <![CDATA[org.testng.TestRunner@2582b0ef]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@14cd1699]" started-at="2022-04-28T15:43:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-28T15:45:45 IST" duration-ms="153784" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@6302bbb1]" started-at="2022-04-30T12:44:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-30T12:45:06 IST" duration-ms="39553" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -34,28 +34,28 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='editpane_title']"}
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'INLEN8520015687', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03eaada74ba4f80092719b890b500892, findElement {using=xpath, value=//input[@id='editpane_title']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58087/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 03eaada74ba4f80092719b890b500892]]>
+Command: [2095fdc30bff70c0c03dd6f40b9ff63d, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64606/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2095fdc30bff70c0c03dd6f40b9ff63d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='editpane_title']"}
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.4', revision: '535d840ee2'
 System info: host: 'INLEN8520015687', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03eaada74ba4f80092719b890b500892, findElement {using=xpath, value=//input[@id='editpane_title']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58087/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 03eaada74ba4f80092719b890b500892
+Command: [2095fdc30bff70c0c03dd6f40b9ff63d, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64606/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2095fdc30bff70c0c03dd6f40b9ff63d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -68,23 +68,18 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
-at com.cg.PageBin.Selling.PageFactory.SellingPageFactory.fill_details(SellingPageFactory.java:52)
-at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_fills_the_required_product_details(SellingStepDefinition.java:76)
-at ✽.User fills the required product details(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Selling.feature:14)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
+at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_redirects_to_browse_category_page(SellingStepDefinition.java:81)
+at ✽.User redirects to browse category page(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Selling.feature:16)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@14cd1699]" started-at="2022-04-28T15:45:45 IST" name="tearDownClass" finished-at="2022-04-28T15:45:45 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@6302bbb1]" started-at="2022-04-30T12:45:06 IST" name="tearDownClass" finished-at="2022-04-30T12:45:06 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

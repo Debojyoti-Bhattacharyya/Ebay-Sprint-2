@@ -1,5 +1,7 @@
 package com.cg.PageBin.Selling.PageFactory;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,7 +16,7 @@ public class SellingPageFactory {
 	@FindBy(xpath = "//*[@id=\"s0-1-4-16-3-find-product-search-bar-search-field\"]")
 	WebElement searchBox;
 	
-	@FindBy(xpath = "//*[@id=\"s0-1-4-16-3-find-product-search-bar-autocomplete-autocomplete[1]\"]/button")
+	@FindBy(xpath = "//input[@id=\"s0-1-4-16-3-find-product-search-bar-autocomplete-autocomplete[1]\"]/button")
 	WebElement category;
 	
 	@FindBy(xpath = "//input[@id='editpane_title']")
@@ -44,6 +46,8 @@ public class SellingPageFactory {
 	}
 	
 	public void select_category() {
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 		searchBox.sendKeys("eBay User Tools");
 		category.click();
 	}

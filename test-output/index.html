@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\DEBOJYBH\AppData\Local\Temp\testng-eclipse--1175619513\testng-customsuite.xml</span>
+                    <span>C:\Users\DEBOJYBH\AppData\Local\Temp\testng-eclipse--495047275\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -131,15 +131,15 @@
                   </a> <!-- runScenario("Selling a product", "Selling Functionality") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Selling a product", "Selling Functionality")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;editpane_title&apos;]&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
 System info: host: &apos;INLEN8520015687&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03eaada74ba4f80092719b890b500892, findElement {using=xpath, value=//input[@id=&apos;editpane_title&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58087/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 03eaada74ba4f80092719b890b500892
+Command: [2095fdc30bff70c0c03dd6f40b9ff63d, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64606/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2095fdc30bff70c0c03dd6f40b9ff63d
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -152,16 +152,11 @@ Session ID: 03eaada74ba4f80092719b890b500892
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
-	at com.cg.PageBin.Selling.PageFactory.SellingPageFactory.fill_details(SellingPageFactory.java:52)
-	at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_fills_the_required_product_details(SellingStepDefinition.java:76)
-	at ✽.User fills the required product details(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Selling.feature:14)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
+	at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_redirects_to_browse_category_page(SellingStepDefinition.java:81)
+	at ✽.User redirects to browse category page(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Selling.feature:16)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -173,7 +168,7 @@ Session ID: 03eaada74ba4f80092719b890b500892
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DEBOJYBH\AppData\Local\Temp\testng-eclipse--1175619513\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\DEBOJYBH\AppData\Local\Temp\testng-eclipse--495047275\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -234,12 +229,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.cg.Ebay.Functionalities.Selling.SellingTestRunner')
-data.setCell(0, 3, 153784);
+data.setCell(0, 3, 39553);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -267,18 +262,18 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.cg.Ebay.Functionalities.Selling.SellingTestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@21a9a705)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@2582b0ef)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Selling a product", "Selling Functionality")</span>
-                <span class="method-start">151 ms</span>
+                <span class="method-start">194 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">153942 ms</span>
+                <span class="method-start">39790 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

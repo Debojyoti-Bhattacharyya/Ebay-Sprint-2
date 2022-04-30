@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 28 15:43:11 IST 2022</td>
+<td>Started on:</td><td>Sat Apr 30 12:44:27 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>153 seconds (153965 ms)</td>
+<tr><td>Total time:</td><td>39 seconds (39839 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.cg.Ebay.Functionalities.Selling.SellingTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.cg.Ebay.Functionalities.Selling.SellingTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Selling a product", "Selling Functionality"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;editpane_title&apos;]&quot;}
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
 System info: host: &apos;INLEN8520015687&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03eaada74ba4f80092719b890b500892, findElement {using=xpath, value=//input[@id=&apos;editpane_title&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58087/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 03eaada74ba4f80092719b890b500892
+Command: [2095fdc30bff70c0c03dd6f40b9ff63d, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64606/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2095fdc30bff70c0c03dd6f40b9ff63d
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -97,26 +97,21 @@ Session ID: 03eaada74ba4f80092719b890b500892
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
-	at com.cg.PageBin.Selling.PageFactory.SellingPageFactory.fill_details(SellingPageFactory.java:52)
-	at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_fills_the_required_product_details(SellingStepDefinition.java:76)
-	at ?.User fills the required product details(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Selling.feature:14)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2010883277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2010883277'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;editpane_title&apos;]&quot;}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
+	at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_redirects_to_browse_category_page(SellingStepDefinition.java:81)
+	at ?.User redirects to browse category page(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Selling.feature:16)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1424043852", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1424043852'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
 System info: host: &apos;INLEN8520015687&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03eaada74ba4f80092719b890b500892, findElement {using=xpath, value=//input[@id=&apos;editpane_title&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58087/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 03eaada74ba4f80092719b890b500892
+Command: [2095fdc30bff70c0c03dd6f40b9ff63d, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64606/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2095fdc30bff70c0c03dd6f40b9ff63d
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -129,19 +124,14 @@ Session ID: 03eaada74ba4f80092719b890b500892
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
-	at com.cg.PageBin.Selling.PageFactory.SellingPageFactory.fill_details(SellingPageFactory.java:52)
-	at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_fills_the_required_product_details(SellingStepDefinition.java:76)
-	at ?.User fills the required product details(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Selling.feature:14)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
+	at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_redirects_to_browse_category_page(SellingStepDefinition.java:81)
+	at ?.User redirects to browse category page(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Selling.feature:16)
 </pre></div></td>
-<td>153</td>
-<td>com.cg.Ebay.Functionalities.Selling.SellingTestRunner@14cd1699</td></tr>
+<td>39</td>
+<td>com.cg.Ebay.Functionalities.Selling.SellingTestRunner@6302bbb1</td></tr>
 </table><p>
 </body>
 </html>
