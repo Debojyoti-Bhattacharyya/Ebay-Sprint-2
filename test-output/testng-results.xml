@@ -1,89 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-30T12:44:27 IST" name="Default suite" finished-at="2022-04-30T12:45:06 IST" duration-ms="39839">
+  <suite started-at="2022-04-30T22:49:39 IST" name="Default suite" finished-at="2022-04-30T22:50:30 IST" duration-ms="50847">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@6302bbb1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@175c2241]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-04-30T12:44:27 IST" name="Default test" finished-at="2022-04-30T12:45:06 IST" duration-ms="39839">
-      <class name="com.cg.Ebay.Functionalities.Selling.SellingTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@6302bbb1]" started-at="2022-04-30T12:44:27 IST" name="setUpClass" finished-at="2022-04-30T12:44:27 IST" duration-ms="188" status="PASS">
+    <test started-at="2022-04-30T22:49:39 IST" name="Default test" finished-at="2022-04-30T22:50:30 IST" duration-ms="50847">
+      <class name="com.cg.Ebay.Functionalities.Buying.BuyingTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@175c2241]" started-at="2022-04-30T22:49:39 IST" name="setUpClass" finished-at="2022-04-30T22:49:40 IST" duration-ms="211" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2582b0ef]]>
+                <![CDATA[org.testng.TestRunner@46185a1b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@6302bbb1]" started-at="2022-04-30T12:44:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-30T12:45:06 IST" duration-ms="39553" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@175c2241]" started-at="2022-04-30T22:49:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-30T22:50:30 IST" duration-ms="50579" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Selling a product"]]>
+                <![CDATA["Buying a product"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Selling Functionality"]]>
+                <![CDATA["Buying Functionality"]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'INLEN8520015687', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2095fdc30bff70c0c03dd6f40b9ff63d, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64606/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2095fdc30bff70c0c03dd6f40b9ff63d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'INLEN8520015687', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2095fdc30bff70c0c03dd6f40b9ff63d, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64606/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2095fdc30bff70c0c03dd6f40b9ff63d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
-at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_redirects_to_browse_category_page(SellingStepDefinition.java:81)
-at ✽.User redirects to browse category page(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Selling.feature:16)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@6302bbb1]" started-at="2022-04-30T12:45:06 IST" name="tearDownClass" finished-at="2022-04-30T12:45:06 IST" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@175c2241]" started-at="2022-04-30T22:50:30 IST" name="tearDownClass" finished-at="2022-04-30T22:50:30 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.cg.Ebay.Functionalities.Selling.SellingTestRunner -->
+      </class> <!-- com.cg.Ebay.Functionalities.Buying.BuyingTestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
