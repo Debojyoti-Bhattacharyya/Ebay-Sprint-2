@@ -59,6 +59,7 @@ public class SigninStepDefinition {
 			}
 		}
 	}
+	
 	@AfterTest
 	@Then("User redirects to home page")
 	public void user_redirects_to_home_page() {

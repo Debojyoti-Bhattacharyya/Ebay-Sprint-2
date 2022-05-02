@@ -36,25 +36,30 @@ public class DailyDealsStepDefinition {
 	    
 	    softassert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles & More | eBay");
 	}
+	
 	@When("User clicks on Daily Deals button")
 	public void user_clicks_on_daily_deals_button() {
 	    
 		ddrepo.clickDailyDealsBtn(driver);
 	}
+	
 	@When("User clicks on category")
 	public void user_clicks_on_category() {
 	    
 		ddrepo.selectCategory(driver);
 	}
+	
 	@When("User clicks required product")
 	public void user_clicks_required_product() {
 	    
 		ddrepo.selectProduct(driver);
 	}
+	
 	@When("User clicks on View in Cart button")
 	public void user_clicks_on_view_in_cart_button() {
 //	    softassert.assertFalse(driver.findElement(By.tagName("a")).getText().contains("Add to cart"));
 	}
+	
 	@AfterTest
 	@Then("User redirects to Shopping Cart page")
 	public void user_redirects_to_shopping_cart_page() {

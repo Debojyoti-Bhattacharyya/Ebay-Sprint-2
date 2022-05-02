@@ -34,6 +34,7 @@ public class RegistrationStepDefinition {
 		registerpom = new RegistrationPom(driver);
 		Assert.assertEquals(driver.getTitle(), "Register: Create a personal account");
 	}
+	
 	@When("User enters first_name, last_name, email, password and clicks on register button")
 	public void user_enters_first_name_last_name_email_password_and_clicks_on_register_button() {
 		
@@ -52,6 +53,7 @@ public class RegistrationStepDefinition {
 			driver.get("https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2F");
 		}
 	}
+	
 	@AfterTest
 	@Then("User redirects to Login page")
 	public void user_redirects_to_login_page() {

@@ -60,6 +60,7 @@ public class HelpAndContactStepDefinition {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
+	
 	@AfterTest
 	@Then("User redirects to query page")
 	public void user_redirects_to_query_page() {

@@ -39,6 +39,7 @@ public class SellingStepDefinition {
 		
 		softassert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles & More | eBay");
 	}
+	
 	@When("User enters email, clicks on Continue button and enters password, clicks on sign in button")
 	public void user_enters_email_clicks_on_continue_button_and_enters_password_clicks_on_sign_in_button() throws InterruptedException {
 		
@@ -49,34 +50,42 @@ public class SellingStepDefinition {
 		signin.typePassword(1);
 		signin.clickSignin();
 	}
+	
 	@Then("User redirects to home page")
 	public void user_redirects_to_home_page() {
 	    
 	}
+	
 	@Given("User clicks on Sell button")
 	public void user_clicks_on_sell_button() {
 		sellbtnpf.clickSell(driver);
 	}
+	
 	@When("User clicks on a Browse Categories dropdown")
 	public void user_clicks_on_a_browse_categories_dropdown() {
 //	    pf.browse_category();
 	}
+	
 	@When("User clicks on category")
 	public void user_clicks_on_category() {
 		sellingpf.select_category();
 	}
+	
 	@When("User clicks on subcategory")
 	public void user_clicks_on_subcategory() {
 //		sellingpf.select_subcategory();
 	}
+	
 	@When("User fills the required product details")
 	public void user_fills_the_required_product_details() {
 //		sellingpf.fill_details();
 	}
+	
 	@When("User clicks on Save as Draft button")
 	public void user_clicks_on_save_as_draft_button() {
 //		sellingpf.save_draft();
 	}
+	
 	@AfterTest
 	@Then("User redirects to browse category page")
 	public void user_redirects_to_browse_category_page() {
