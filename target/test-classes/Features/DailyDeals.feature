@@ -1,6 +1,6 @@
 Feature: Daily Deals Functionality
   We want to check whether the Daily Deals functionality is working as expected or not
-   
+ 
 Scenario: Checking Daily Deals
  	Given User is on Home page
  	When User clicks on Daily Deals button

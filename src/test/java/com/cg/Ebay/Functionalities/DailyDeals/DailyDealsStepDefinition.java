@@ -4,6 +4,9 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.cg.PageBin.DailyDeals.ObjectRepo.DailyDealsRepo;
 
@@ -15,17 +18,23 @@ public class DailyDealsStepDefinition {
 	
 	WebDriver driver;
 	DailyDealsRepo ddrepo;
+	SoftAssert softassert;
 	
+	@Test
 	@Given("User is on Home page")
 	public void user_is_on_home_page() throws IOException {
 	    
 		ddrepo = new DailyDealsRepo();
+		softassert = new SoftAssert();
+		
 	    String driverPath = ddrepo.getDriverPath();
 	    String url = ddrepo.getUrl();
 	    
 	    System.setProperty("webdriver.chrome.driver", driverPath);
 	    driver = new ChromeDriver();
 	    driver.get(url);
+	    
+	    softassert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles & More | eBay");
 	}
 	@When("User clicks on Daily Deals button")
 	public void user_clicks_on_daily_deals_button() {
@@ -44,8 +53,9 @@ public class DailyDealsStepDefinition {
 	}
 	@When("User clicks on View in Cart button")
 	public void user_clicks_on_view_in_cart_button() {
-	    
+//	    softassert.assertFalse(driver.findElement(By.tagName("a")).getText().contains("Add to cart"));
 	}
+	@AfterTest
 	@Then("User redirects to Shopping Cart page")
 	public void user_redirects_to_shopping_cart_page() {
 	    

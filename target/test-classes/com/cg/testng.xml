@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite thread-count="5" verbose="1" name="Ebay Suite" annotations="JDK" parallel="tests">
-	
+<suite thread-count="1" verbose="1" name="Ebay Suite" annotations="JDK" parallel="tests">
+
 	<test name="Registration">
 		<classes>
 			<class name="com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner"/> 
@@ -35,6 +36,17 @@
 	<test name="HelpAndContact">
 		<classes>
 			<class name="com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner"/> 
+		</classes>
+	</test>
+	
+	<test name="Assertions">
+		<classes>
+			<class name="com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition"/>
+			<class name="com.cg.Ebay.Functionalities.Login.SigninStepDefinition"/>
+			<class name="com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition"/>
+			<class name="com.cg.Ebay.Functionalities.Selling.SellingStepDefinition"/>
+			<class name="com.cg.Ebay.Functionalities.DailyDeals.DailyDealsStepDefinition"/>
+			<class name="com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition"/>
 		</classes>
 	</test>
 

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cg.Ebay.Functionalities.Selling.SellingTestRunner">
+      <class name="com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="user_is_on_registration_page"/>
         </methods>
-      </class> <!-- com.cg.Ebay.Functionalities.Selling.SellingTestRunner -->
+      </class> <!-- com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

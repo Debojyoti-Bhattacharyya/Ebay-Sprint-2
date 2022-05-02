@@ -14,4 +14,3 @@ Scenario: Buying a product
  	And User clicks on a product
   And User clicks on Buy it Now button
  	Then User redirects to payments page
- 	

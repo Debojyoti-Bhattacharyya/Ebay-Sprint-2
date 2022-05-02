@@ -18,7 +18,8 @@ public class HelpAndContactRepo {
 	SAXReader saxreader;
 	Document document;
 	
-	public HelpAndContactRepo() throws IOException, DocumentException {
+	public HelpAndContactRepo(WebDriver driver) throws IOException, DocumentException {
+		this.driver = driver;
 		src = new File("C:\\Users\\DEBOJYBH\\eclipse-workspace\\Sprint2\\src\\test\\java\\com\\cg\\PageBin\\HelpAndContact\\ObjectRepo\\Config.xml");
 		fis = new FileInputStream(src);
 		saxreader = new SAXReader();

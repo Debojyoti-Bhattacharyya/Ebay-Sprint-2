@@ -3,9 +3,11 @@ package com.cg.Ebay.Functionalities.Selling;
 import java.io.IOException;
 import java.time.Duration;
 
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.cg.PageBin.SigninPom;
 import com.cg.PageBin.Selling.PageFactory.SellButtonPageFactory;
@@ -21,7 +23,9 @@ public class SellingStepDefinition {
 	SellingPageFactory sellingpf;
 	SellButtonPageFactory sellbtnpf;
 	SigninPom signin;
+	SoftAssert softassert;
 	
+	@Test
 	@Given("User is on login page")
 	public void user_is_on_login_page() throws IOException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DEBOJYBH\\SeleniumProject\\BrowserDriver\\chromedriver.exe");
@@ -31,6 +35,9 @@ public class SellingStepDefinition {
 		signin = new SigninPom(driver);
 		sellbtnpf = new SellButtonPageFactory(driver);
 		sellingpf = new SellingPageFactory(driver);
+		softassert = new SoftAssert();
+		
+		softassert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles & More | eBay");
 	}
 	@When("User enters email, clicks on Continue button and enters password, clicks on sign in button")
 	public void user_enters_email_clicks_on_continue_button_and_enters_password_clicks_on_sign_in_button() throws InterruptedException {
@@ -70,6 +77,7 @@ public class SellingStepDefinition {
 	public void user_clicks_on_save_as_draft_button() {
 //		sellingpf.save_draft();
 	}
+	@AfterTest
 	@Then("User redirects to browse category page")
 	public void user_redirects_to_browse_category_page() {
 	    driver.close();
