@@ -26,6 +26,7 @@ public class RegistrationStepDefinition {
 	public void user_is_on_registration_page() throws IOException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DEBOJYBH\\SeleniumProject\\BrowserDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://www.ebay.com/");
 		driver.findElement(By.linkText("register")).click();
 		
@@ -43,14 +44,12 @@ public class RegistrationStepDefinition {
 			registerpom.typeLastname(row);
 			registerpom.typeEmail(row);
 			registerpom.typePassword(row);
-			try {
-				Thread.sleep(2000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-			registerpom.clickRegister();
 			
-			driver.get("https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2F");
+			registerpom.clickRegister();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+			
+			if(row != 3)
+				driver.get("https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2F");
 		}
 	}
 	

@@ -32,6 +32,7 @@ public class DailyDealsStepDefinition {
 	    
 	    System.setProperty("webdriver.chrome.driver", driverPath);
 	    driver = new ChromeDriver();
+	    driver.manage().window().maximize();
 	    driver.get(url);
 	    
 	    softassert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles & More | eBay");
@@ -42,7 +43,7 @@ public class DailyDealsStepDefinition {
 	    
 		ddrepo.clickDailyDealsBtn(driver);
 	}
-	
+
 	@When("User clicks on category")
 	public void user_clicks_on_category() {
 	    
@@ -57,7 +58,7 @@ public class DailyDealsStepDefinition {
 	
 	@When("User clicks on View in Cart button")
 	public void user_clicks_on_view_in_cart_button() {
-//	    softassert.assertFalse(driver.findElement(By.tagName("a")).getText().contains("Add to cart"));
+
 	}
 	
 	@AfterTest

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-02T11:30:38 IST" name="Ebay Suite" finished-at="2022-05-02T11:34:23 IST" duration-ms="225325">
+  <suite started-at="2022-05-03T10:50:54 IST" name="Ebay Suite" finished-at="2022-05-03T10:53:25 IST" duration-ms="151699">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner@2f7298b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
@@ -13,20 +13,20 @@
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner@59309333]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-05-02T11:30:38 IST" name="Registration" finished-at="2022-05-02T11:31:07 IST" duration-ms="28863">
+    <test started-at="2022-05-03T10:50:54 IST" name="Registration" finished-at="2022-05-03T10:51:10 IST" duration-ms="16428">
       <class name="com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner@2f7298b]" started-at="2022-05-02T11:30:38 IST" name="setUpClass" finished-at="2022-05-02T11:30:38 IST" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner@2f7298b]" started-at="2022-05-03T10:50:54 IST" name="setUpClass" finished-at="2022-05-03T10:50:54 IST" duration-ms="197" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1fa121e2]]>
+                <![CDATA[org.testng.TestRunner@6ed3ccb2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner@2f7298b]" started-at="2022-05-02T11:30:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T11:31:07 IST" duration-ms="28689" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner@2f7298b]" started-at="2022-05-03T10:50:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-03T10:51:10 IST" duration-ms="16191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,26 +42,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner@2f7298b]" started-at="2022-05-02T11:31:07 IST" name="tearDownClass" finished-at="2022-05-02T11:31:07 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner@2f7298b]" started-at="2022-05-03T10:51:10 IST" name="tearDownClass" finished-at="2022-05-03T10:51:10 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cg.Ebay.Functionalities.Registration.RegistrationTestRunner -->
     </test> <!-- Registration -->
-    <test started-at="2022-05-02T11:31:07 IST" name="Signin" finished-at="2022-05-02T11:31:25 IST" duration-ms="17911">
+    <test started-at="2022-05-03T10:51:10 IST" name="Signin" finished-at="2022-05-03T10:51:26 IST" duration-ms="16165">
       <class name="com.cg.Ebay.Functionalities.Login.SigninTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninTestRunner@4f18837a]" started-at="2022-05-02T11:31:07 IST" name="setUpClass" finished-at="2022-05-02T11:31:07 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninTestRunner@4f18837a]" started-at="2022-05-03T10:51:10 IST" name="setUpClass" finished-at="2022-05-03T10:51:10 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7eac9008]]>
+                <![CDATA[org.testng.TestRunner@1a677343]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninTestRunner@4f18837a]" started-at="2022-05-02T11:31:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T11:31:25 IST" duration-ms="17893" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninTestRunner@4f18837a]" started-at="2022-05-03T10:51:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-03T10:51:26 IST" duration-ms="16146" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,26 +77,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninTestRunner@4f18837a]" started-at="2022-05-02T11:31:25 IST" name="tearDownClass" finished-at="2022-05-02T11:31:25 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninTestRunner@4f18837a]" started-at="2022-05-03T10:51:26 IST" name="tearDownClass" finished-at="2022-05-03T10:51:26 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cg.Ebay.Functionalities.Login.SigninTestRunner -->
     </test> <!-- Signin -->
-    <test started-at="2022-05-02T11:31:25 IST" name="Buying" finished-at="2022-05-02T11:31:56 IST" duration-ms="30959">
+    <test started-at="2022-05-03T10:51:26 IST" name="Buying" finished-at="2022-05-03T10:51:52 IST" duration-ms="25579">
       <class name="com.cg.Ebay.Functionalities.Buying.BuyingTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@a514af7]" started-at="2022-05-02T11:31:25 IST" name="setUpClass" finished-at="2022-05-02T11:31:25 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@a514af7]" started-at="2022-05-03T10:51:26 IST" name="setUpClass" finished-at="2022-05-03T10:51:26 IST" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4116aac9]]>
+                <![CDATA[org.testng.TestRunner@15de0b3c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@a514af7]" started-at="2022-05-02T11:31:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T11:31:56 IST" duration-ms="30920" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@a514af7]" started-at="2022-05-03T10:51:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-03T10:51:52 IST" duration-ms="25555" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,26 +112,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@a514af7]" started-at="2022-05-02T11:31:56 IST" name="tearDownClass" finished-at="2022-05-02T11:31:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingTestRunner@a514af7]" started-at="2022-05-03T10:51:52 IST" name="tearDownClass" finished-at="2022-05-03T10:51:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cg.Ebay.Functionalities.Buying.BuyingTestRunner -->
     </test> <!-- Buying -->
-    <test started-at="2022-05-02T11:31:56 IST" name="Selling" finished-at="2022-05-02T11:32:20 IST" duration-ms="24059">
+    <test started-at="2022-05-03T10:51:52 IST" name="Selling" finished-at="2022-05-03T10:52:06 IST" duration-ms="14378">
       <class name="com.cg.Ebay.Functionalities.Selling.SellingTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@79924b]" started-at="2022-05-02T11:31:56 IST" name="setUpClass" finished-at="2022-05-02T11:31:56 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@79924b]" started-at="2022-05-03T10:51:52 IST" name="setUpClass" finished-at="2022-05-03T10:51:52 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@62ddbd7e]]>
+                <![CDATA[org.testng.TestRunner@489115ef]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@79924b]" started-at="2022-05-02T11:31:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T11:32:20 IST" duration-ms="24043" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@79924b]" started-at="2022-05-03T10:51:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-03T10:52:06 IST" duration-ms="14364" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,76 +144,29 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="s0-1-4-16-3-find-product-search-bar-search-field"]"}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'INLEN8520015687', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7fed9da89b36f00f467cb5a320d3d893, findElement {using=xpath, value=//*[@id="s0-1-4-16-3-find-product-search-bar-search-field"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55547/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fed9da89b36f00f467cb5a320d3d893]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="s0-1-4-16-3-find-product-search-bar-search-field"]"}
-  (Session info: chrome=100.0.4896.127)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'INLEN8520015687', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7fed9da89b36f00f467cb5a320d3d893, findElement {using=xpath, value=//*[@id="s0-1-4-16-3-find-product-search-bar-search-field"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\DEBOJYBH\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55547/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fed9da89b36f00f467cb5a320d3d893
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy24.sendKeys(Unknown Source)
-at com.cg.PageBin.Selling.PageFactory.SellingPageFactory.select_category(SellingPageFactory.java:51)
-at com.cg.Ebay.Functionalities.Selling.SellingStepDefinition.user_clicks_on_category(SellingStepDefinition.java:66)
-at ✽.User clicks on category(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprint2/src/test/resources/Features/Selling.feature:12)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@79924b]" started-at="2022-05-02T11:32:20 IST" name="tearDownClass" finished-at="2022-05-02T11:32:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingTestRunner@79924b]" started-at="2022-05-03T10:52:06 IST" name="tearDownClass" finished-at="2022-05-03T10:52:06 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cg.Ebay.Functionalities.Selling.SellingTestRunner -->
     </test> <!-- Selling -->
-    <test started-at="2022-05-02T11:32:20 IST" name="DailyDeals" finished-at="2022-05-02T11:32:32 IST" duration-ms="12111">
+    <test started-at="2022-05-03T10:52:06 IST" name="DailyDeals" finished-at="2022-05-03T10:52:16 IST" duration-ms="9464">
       <class name="com.cg.Ebay.Functionalities.DailyDeals.DailyDealsTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsTestRunner@294425a7]" started-at="2022-05-02T11:32:20 IST" name="setUpClass" finished-at="2022-05-02T11:32:20 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsTestRunner@294425a7]" started-at="2022-05-03T10:52:06 IST" name="setUpClass" finished-at="2022-05-03T10:52:06 IST" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@74e52ef6]]>
+                <![CDATA[org.testng.TestRunner@3857f613]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsTestRunner@294425a7]" started-at="2022-05-02T11:32:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T11:32:32 IST" duration-ms="12102" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsTestRunner@294425a7]" started-at="2022-05-03T10:52:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-03T10:52:16 IST" duration-ms="9439" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,26 +182,26 @@ at ✽.User clicks on category(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprin
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsTestRunner@294425a7]" started-at="2022-05-02T11:32:32 IST" name="tearDownClass" finished-at="2022-05-02T11:32:32 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsTestRunner@294425a7]" started-at="2022-05-03T10:52:16 IST" name="tearDownClass" finished-at="2022-05-03T10:52:16 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cg.Ebay.Functionalities.DailyDeals.DailyDealsTestRunner -->
     </test> <!-- DailyDeals -->
-    <test started-at="2022-05-02T11:32:32 IST" name="HelpAndContact" finished-at="2022-05-02T11:32:40 IST" duration-ms="8659">
+    <test started-at="2022-05-03T10:52:16 IST" name="HelpAndContact" finished-at="2022-05-03T10:52:29 IST" duration-ms="12961">
       <class name="com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner@59309333]" started-at="2022-05-02T11:32:32 IST" name="setUpClass" finished-at="2022-05-02T11:32:32 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner@59309333]" started-at="2022-05-03T10:52:16 IST" name="setUpClass" finished-at="2022-05-03T10:52:16 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6ed3ccb2]]>
+                <![CDATA[org.testng.TestRunner@198b6731]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner@59309333]" started-at="2022-05-02T11:32:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T11:32:40 IST" duration-ms="8626" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner@59309333]" started-at="2022-05-03T10:52:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-03T10:52:29 IST" duration-ms="12944" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -264,89 +217,97 @@ at ✽.User clicks on category(file:///C:/Users/DEBOJYBH/eclipse-workspace/Sprin
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner@59309333]" started-at="2022-05-02T11:32:40 IST" name="tearDownClass" finished-at="2022-05-02T11:32:40 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner@59309333]" started-at="2022-05-03T10:52:29 IST" name="tearDownClass" finished-at="2022-05-03T10:52:29 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactTestRunner -->
     </test> <!-- HelpAndContact -->
-    <test started-at="2022-05-02T11:32:40 IST" name="Assertions" finished-at="2022-05-02T11:34:23 IST" duration-ms="102660">
+    <test started-at="2022-05-03T10:52:29 IST" name="Assertions" finished-at="2022-05-03T10:53:25 IST" duration-ms="56606">
       <class name="com.cg.Ebay.Functionalities.Login.SigninStepDefinition">
-        <test-method signature="user_is_on_login_page()[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninStepDefinition@6302bbb1]" started-at="2022-05-02T11:33:05 IST" name="user_is_on_login_page" finished-at="2022-05-02T11:33:15 IST" duration-ms="9940" status="PASS">
+        <test-method signature="user_is_on_login_page()[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninStepDefinition@6f1de4c7]" started-at="2022-05-03T10:52:51 IST" name="user_is_on_login_page" finished-at="2022-05-03T10:52:57 IST" duration-ms="6470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_is_on_login_page -->
-        <test-method is-config="true" signature="user_redirects_to_home_page()[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninStepDefinition@6302bbb1]" started-at="2022-05-02T11:34:14 IST" name="user_redirects_to_home_page" finished-at="2022-05-02T11:34:18 IST" duration-ms="4768" status="PASS">
+        <test-method is-config="true" signature="user_redirects_to_home_page()[pri:0, instance:com.cg.Ebay.Functionalities.Login.SigninStepDefinition@6f1de4c7]" started-at="2022-05-03T10:53:24 IST" name="user_redirects_to_home_page" finished-at="2022-05-03T10:53:25 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_redirects_to_home_page -->
       </class> <!-- com.cg.Ebay.Functionalities.Login.SigninStepDefinition -->
       <class name="com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition">
-        <test-method is-config="true" signature="user_is_on_home_page()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@5c6648b0]" started-at="2022-05-02T11:32:45 IST" name="user_is_on_home_page" finished-at="2022-05-02T11:32:50 IST" duration-ms="5463" status="PASS">
+        <test-method is-config="true" signature="user_is_on_home()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@7c7b252e]" started-at="2022-05-03T10:52:32 IST" name="user_is_on_home" finished-at="2022-05-03T10:52:37 IST" duration-ms="4306" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user_is_on_home_page -->
-        <test-method signature="user_clicks_on_help_contact_button()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@5c6648b0]" started-at="2022-05-02T11:33:36 IST" name="user_clicks_on_help_contact_button" finished-at="2022-05-02T11:33:52 IST" duration-ms="16364" status="PASS">
+        </test-method> <!-- user_is_on_home -->
+        <test-method signature="user_clicks_on_help_contact_button()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@7c7b252e]" started-at="2022-05-03T10:53:11 IST" name="user_clicks_on_help_contact_button" finished-at="2022-05-03T10:53:15 IST" duration-ms="3898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_help_contact_button -->
-        <test-method signature="user_clicks_on_query()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@5c6648b0]" started-at="2022-05-02T11:33:52 IST" name="user_clicks_on_query" finished-at="2022-05-02T11:33:56 IST" duration-ms="3325" status="PASS">
+        <test-method signature="user_clicks_on_query()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@7c7b252e]" started-at="2022-05-03T10:53:15 IST" name="user_clicks_on_query" finished-at="2022-05-03T10:53:17 IST" duration-ms="2171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_clicks_on_query -->
-        <test-method signature="user_is_on_home_page()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@5c6648b0]" started-at="2022-05-02T11:33:56 IST" name="user_is_on_home_page" finished-at="2022-05-02T11:34:07 IST" duration-ms="11498" status="PASS">
+        <test-method signature="user_is_on_home()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@7c7b252e]" started-at="2022-05-03T10:53:17 IST" name="user_is_on_home" finished-at="2022-05-03T10:53:23 IST" duration-ms="6340" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user_is_on_home_page -->
-        <test-method is-config="true" signature="user_redirects_to_query_page()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@5c6648b0]" started-at="2022-05-02T11:34:12 IST" name="user_redirects_to_query_page" finished-at="2022-05-02T11:34:14 IST" duration-ms="2015" status="PASS">
+        </test-method> <!-- user_is_on_home -->
+        <test-method is-config="true" signature="user_redirects_to_query_page()[pri:0, instance:com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition@7c7b252e]" started-at="2022-05-03T10:53:24 IST" name="user_redirects_to_query_page" finished-at="2022-05-03T10:53:24 IST" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_redirects_to_query_page -->
       </class> <!-- com.cg.Ebay.Functionalities.HelpAndContact.HelpAndContactStepDefinition -->
       <class name="com.cg.Ebay.Functionalities.Selling.SellingStepDefinition">
-        <test-method signature="user_is_on_login_page()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingStepDefinition@34a3d150]" started-at="2022-05-02T11:33:15 IST" name="user_is_on_login_page" finished-at="2022-05-02T11:33:24 IST" duration-ms="9607" status="PASS">
+        <test-method is-config="true" signature="user_is_on_login()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingStepDefinition@128d2484]" started-at="2022-05-03T10:52:37 IST" name="user_is_on_login" finished-at="2022-05-03T10:52:42 IST" duration-ms="4824" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user_is_on_login_page -->
-        <test-method is-config="true" signature="user_redirects_to_browse_category_page()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingStepDefinition@34a3d150]" started-at="2022-05-02T11:34:19 IST" name="user_redirects_to_browse_category_page" finished-at="2022-05-02T11:34:23 IST" duration-ms="4370" status="PASS">
+        </test-method> <!-- user_is_on_login -->
+        <test-method signature="user_is_on_login()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingStepDefinition@128d2484]" started-at="2022-05-03T10:52:57 IST" name="user_is_on_login" finished-at="2022-05-03T10:53:03 IST" duration-ms="6087" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user_redirects_to_browse_category_page -->
+        </test-method> <!-- user_is_on_login -->
+        <test-method signature="user_is_signed_in()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingStepDefinition@128d2484]" started-at="2022-05-03T10:53:03 IST" name="user_is_signed_in" finished-at="2022-05-03T10:53:03 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_signed_in -->
+        <test-method is-config="true" signature="user_redirects_to_sell_page()[pri:0, instance:com.cg.Ebay.Functionalities.Selling.SellingStepDefinition@128d2484]" started-at="2022-05-03T10:53:25 IST" name="user_redirects_to_sell_page" finished-at="2022-05-03T10:53:25 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_redirects_to_sell_page -->
       </class> <!-- com.cg.Ebay.Functionalities.Selling.SellingStepDefinition -->
       <class name="com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition">
-        <test-method is-config="true" signature="user_is_on_login_page()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition@31304f14]" started-at="2022-05-02T11:32:40 IST" name="user_is_on_login_page" finished-at="2022-05-02T11:32:45 IST" duration-ms="4350" status="PASS">
+        <test-method is-config="true" signature="user_is_on_signin_page()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition@459e9125]" started-at="2022-05-03T10:52:29 IST" name="user_is_on_signin_page" finished-at="2022-05-03T10:52:32 IST" duration-ms="3791" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user_is_on_login_page -->
-        <test-method signature="user_is_logged_in()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition@31304f14]" started-at="2022-05-02T11:33:15 IST" name="user_is_logged_in" finished-at="2022-05-02T11:33:15 IST" duration-ms="223" status="PASS">
+        </test-method> <!-- user_is_on_signin_page -->
+        <test-method signature="user_is_logged_in()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition@459e9125]" started-at="2022-05-03T10:52:57 IST" name="user_is_logged_in" finished-at="2022-05-03T10:52:57 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_is_logged_in -->
-        <test-method signature="user_redirects_to_home_page()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition@31304f14]" started-at="2022-05-02T11:33:15 IST" name="user_redirects_to_home_page" finished-at="2022-05-02T11:33:15 IST" duration-ms="18" status="PASS">
+        <test-method signature="user_is_redirected_to_home_page()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition@459e9125]" started-at="2022-05-03T10:52:57 IST" name="user_is_redirected_to_home_page" finished-at="2022-05-03T10:52:57 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user_redirects_to_home_page -->
-        <test-method is-config="true" signature="user_redirects_to_payments_page()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition@31304f14]" started-at="2022-05-02T11:34:07 IST" name="user_redirects_to_payments_page" finished-at="2022-05-02T11:34:11 IST" duration-ms="3682" status="PASS">
+        </test-method> <!-- user_is_redirected_to_home_page -->
+        <test-method is-config="true" signature="user_redirects_to_payments_page()[pri:0, instance:com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition@459e9125]" started-at="2022-05-03T10:53:23 IST" name="user_redirects_to_payments_page" finished-at="2022-05-03T10:53:24 IST" duration-ms="475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_redirects_to_payments_page -->
       </class> <!-- com.cg.Ebay.Functionalities.Buying.BuyingStepDefinition -->
       <class name="com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition">
-        <test-method signature="user_is_on_registration_page()[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition@4135c3b]" started-at="2022-05-02T11:32:50 IST" name="user_is_on_registration_page" finished-at="2022-05-02T11:33:05 IST" duration-ms="14442" status="PASS">
+        <test-method signature="user_is_on_registration_page()[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition@5c6648b0]" started-at="2022-05-03T10:52:42 IST" name="user_is_on_registration_page" finished-at="2022-05-03T10:52:51 IST" duration-ms="9231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_is_on_registration_page -->
-        <test-method is-config="true" signature="user_redirects_to_login_page()[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition@4135c3b]" started-at="2022-05-02T11:34:18 IST" name="user_redirects_to_login_page" finished-at="2022-05-02T11:34:19 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="user_redirects_to_login_page()[pri:0, instance:com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition@5c6648b0]" started-at="2022-05-03T10:53:25 IST" name="user_redirects_to_login_page" finished-at="2022-05-03T10:53:25 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_redirects_to_login_page -->
       </class> <!-- com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition -->
       <class name="com.cg.Ebay.Functionalities.DailyDeals.DailyDealsStepDefinition">
-        <test-method signature="user_is_on_home_page()[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsStepDefinition@2a4fb17b]" started-at="2022-05-02T11:33:24 IST" name="user_is_on_home_page" finished-at="2022-05-02T11:33:36 IST" duration-ms="11422" status="PASS">
+        <test-method signature="user_is_on_home_page()[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsStepDefinition@7cc0cdad]" started-at="2022-05-03T10:53:03 IST" name="user_is_on_home_page" finished-at="2022-05-03T10:53:11 IST" duration-ms="7253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_is_on_home_page -->
-        <test-method is-config="true" signature="user_redirects_to_shopping_cart_page()[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsStepDefinition@2a4fb17b]" started-at="2022-05-02T11:34:11 IST" name="user_redirects_to_shopping_cart_page" finished-at="2022-05-02T11:34:12 IST" duration-ms="912" status="PASS">
+        <test-method is-config="true" signature="user_redirects_to_shopping_cart_page()[pri:0, instance:com.cg.Ebay.Functionalities.DailyDeals.DailyDealsStepDefinition@7cc0cdad]" started-at="2022-05-03T10:53:24 IST" name="user_redirects_to_shopping_cart_page" finished-at="2022-05-03T10:53:24 IST" duration-ms="494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_redirects_to_shopping_cart_page -->

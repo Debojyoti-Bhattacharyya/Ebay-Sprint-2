@@ -21,8 +21,8 @@ public class BuyingStepDefinition {
 	SoftAssert softassert;
 	
 	@BeforeTest
-	@Given("User is on login page")
-	public void user_is_on_login_page() {
+	@Given("User is on signin page")
+	public void user_is_on_signin_page() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DEBOJYBH\\SeleniumProject\\BrowserDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -32,14 +32,14 @@ public class BuyingStepDefinition {
 	    softassert = new SoftAssert();
 	}
 	
-	@When("User enters email, clicks on Continue button and enters password, clicks on sign in button")
-	public void user_enters_email_clicks_on_continue_button_and_enters_password_clicks_on_sign_in_button() throws InterruptedException {
+	@When("User enters required details, clicks on sign in button")
+	public void user_enters_required_details_clicks_on_sign_in_button() throws InterruptedException {
 		pf.signin();
 	}
 	
 	@Test
-	@Then("User redirects to home page")
-	public void user_redirects_to_home_page() {
+	@Then("User is redirected to home page")
+	public void user_is_redirected_to_home_page() {
 	    softassert.assertEquals(driver.getTitle(), "Electronics, Cars, Fashion, Collectibles & More | eBay");
 	}
 	

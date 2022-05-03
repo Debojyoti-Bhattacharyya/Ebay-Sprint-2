@@ -28,6 +28,7 @@ public class SigninStepDefinition {
 	    
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DEBOJYBH\\SeleniumProject\\BrowserDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://www.ebay.com/");
 		
 		signinpom = new SigninPom(driver);

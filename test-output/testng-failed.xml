@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition">
+      <class name="com.cg.Ebay.Functionalities.DailyDeals.DailyDealsStepDefinition">
         <methods>
-          <include name="user_is_on_registration_page"/>
+          <include name="user_clicks_on_category"/>
+          <include name="user_is_on_home_page"/>
+          <include name="user_redirects_to_shopping_cart_page"/>
         </methods>
-      </class> <!-- com.cg.Ebay.Functionalities.Registration.RegistrationStepDefinition -->
+      </class> <!-- com.cg.Ebay.Functionalities.DailyDeals.DailyDealsStepDefinition -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

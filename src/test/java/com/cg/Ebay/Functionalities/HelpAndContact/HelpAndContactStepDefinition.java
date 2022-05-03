@@ -26,10 +26,11 @@ public class HelpAndContactStepDefinition {
 	
 	@BeforeTest
 	@Test
-	@Given("User is on Home page")
-	public void user_is_on_home_page() throws IOException, DocumentException {
+	@Given("User is on Home")
+	public void user_is_on_home() throws IOException, DocumentException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\DEBOJYBH\\SeleniumProject\\BrowserDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://www.ebay.com/");
 		
 		hcrepo = new HelpAndContactRepo(driver);
@@ -56,7 +57,7 @@ public class HelpAndContactStepDefinition {
 			isPresent = true;
 		}
 		
-		softassert.assertEquals(isPresent, "true");
+		softassert.assertTrue(isPresent);
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
